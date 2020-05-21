@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="10dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/goToFirstBtn"
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="A액티비티로 이동하기" />
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/goToSecondBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="B액티비티로 이동하기" />
+        <Button
+            android:id="@+id/goToFirstBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A액티비티로 이동하기" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/goToSecondBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B액티비티로 이동하기" />
+
+    </LinearLayout>
+</layout>
